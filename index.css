@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 62.5%;
+}
+
+.card {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 150px auto;
+    border-radius: 13px;
+    padding: 20px;
+}
+
+#main {
+    min-width: 200px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-family: 'Outfit';
+    color: white;
+    font-size: 2.8em;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h4 {
+    margin: 0 0 0 10px;
+    color: hsl(178, 100%, 50%);
+    font-size: 2em;
+    font-family: 'Outfit';
+}
+
+p {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 70%);
+    font-size: 1.8em;
+}
+
+.pst .rightElm {
+    display: flex;
+    float: left;
+}
+
+.pst .leftElm {
+    display: flex;
+    float: right;
+}
+
+.clock {
+    color: hsl(0, 0%, 70%);
+    font-family: 'Outfit';
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.pst {}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+    color: red;
+    max-height: 1px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+
+.dbt {
+    font-size: 1em;
+}
+
+.name {
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+    transition: color 0.5s ease-in-out;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.pspace {
+    margin: 15px 0 0 20px;
+}
+
+.end {
+    display: flex;
+}
