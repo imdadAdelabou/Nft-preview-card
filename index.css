@@ -62,8 +62,6 @@ p {
     margin-left: 10px;
 }
 
-.pst {}
-
 .clearfix {
     content: "";
     clear: both;
@@ -71,9 +69,10 @@ p {
 }
 
 hr {
+    border: none;
     margin: 20px 0 20px 0;
-    color: red;
-    max-height: 1px;
+    background-color: hsl(0, 0%, 20%);
+    height: 1px;
 }
 
 .avatar {
@@ -109,4 +108,36 @@ hr {
 
 .end {
     display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 250px;
+        margin: 50px auto;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    #main {
+        width: 100%;
+    }
+    .dbt {
+        font-size: 1em;
+    }
+    .name {
+        font-size: 1em;
+    }
+    h4 {
+        font-size: 1.5em;
+    }
+    .clock {
+        font-size: 1.5em;
+    }
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+    .pspace {
+        margin: 8px 0 0 18px;
+    }
 }
